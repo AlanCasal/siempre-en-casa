@@ -2,7 +2,7 @@
 
 ### Nota 📝
 
-``- lunes 05/04/20`` _Lo hice ayer. Cumple con los pedidos del challenge. Quería agregarle JEST pero no me dio el tiempo, así que pensaba agregarlo en estos días después de mi horario laboral, y un poco de refactorización. Pero lo envío ahora dado que mañana ya tendremos una entrevista técnica_
+``- lunes 05/04/20`` _Lo hice ayer. Cumple con los pedidos del challenge. Quería agregarle JEST pero no me dio el tiempo, así que pensaba agregarlo en estos días después de mi horario laboral, un poco de refactorización y aunque no se pide en el challenge podría agregar un poco de responsive. Pero lo envío ahora dado que mañana ya tendremos una entrevista técnica. Algunos componentes como el `HeadingSecondary.tsx` están bastante estilados porque son componentes que ya tengo guardados para uso personal_
 
 ### Instalación 🔧
 
