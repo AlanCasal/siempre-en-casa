@@ -21,7 +21,7 @@ const Modal = ( { recommendedProducts, closeModal, onAddItem, onRemoveItem }: Mo
                     
                     <div className="modal__flex-container">
                         { recommendedProducts.map( product => (
-                            <div className="section-products__card-container" key={ product.name } >
+                            <div className="modal__card-container" key={ product.name } >
                                 <Card
                                     product={ product }
                                     onAddItem={ onAddItem }
@@ -74,8 +74,8 @@ const Modal = ( { recommendedProducts, closeModal, onAddItem, onRemoveItem }: Mo
                     }
 
                     &__card-container {
-                        flex: 0 0 calc(350px - 20px);
-                        margin: 45px;
+                        flex: 0 0 calc(250px - 20px);
+                        margin: 0 5px 15px;
                     }
                 }
             `}</style>

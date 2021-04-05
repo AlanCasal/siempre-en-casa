@@ -1,7 +1,6 @@
 
 @import 'styles/sass/abstracts/variables';
-@import 'styles/sass/abstracts/mixins';
-@import url('#{$GOOGLE_FONTS}?&family=#{$montserrat}&family=#{$ubuntu}&family=#{$cinzel}&display=swap');
+@import url('#{$GOOGLE_FONTS}?family=#{$montserrat}&family=#{$ubuntu}&display=swap');
 
 body {
     font-family: "Ubuntu", sans-serif;
@@ -25,5 +24,5 @@ body {
 }
 
 .montserrat {
-    font-family: Montserrat, sans-serif;
+    font-family: sans-serif;
 }

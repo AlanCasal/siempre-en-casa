@@ -10,6 +10,10 @@ interface CardProps {
 const Card = ( { product, onAddItem, onRemoveItem, onProductClick }: CardProps ): JSX.Element => {
     const { name, image_url, total_price, product_id,  } = product;
 
+    const checkImg = () => {
+        
+    }
+
     const backgroundImage = { backgroundImage: `url( ${ image_url } )` };
 
     const truncated_name = (): string => name.length > 40 ? `${ name.substring( 0, 40 ) }...` : name;
@@ -46,7 +50,6 @@ const Card = ( { product, onAddItem, onRemoveItem, onProductClick }: CardProps )
 
             <style jsx>{`
                 @import 'styles/sass/abstracts/_variables';
-                @import 'styles/sass/base/_typography';
                 
                 .card-wrapper {
                     position: relative;

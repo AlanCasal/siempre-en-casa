@@ -34,6 +34,8 @@ const products = ( { products, categories }: InferGetServerSidePropsType<typeof 
     const [ cartItems, setCartItems ] = useState<Product[]>( [] );
     const [ activeCategory, setActiveCategory ] = useState<Categories | '' >( '' );
 
+    console.log('[products]', products);
+
     const onProductClick = async ( product_id: string ): Promise<void> => {
         const { data }: RecommendationsData = await iAxios.get(`/recommendations?product_id=${ product_id }`);
         const recommendationsIds: string[] = data[0].recommendations;
@@ -122,14 +124,6 @@ const products = ( { products, categories }: InferGetServerSidePropsType<typeof 
                             />
                         </div> ) ) }
                     </div>
-
-                    { showModal &&
-                    <Modal
-                        recommendedProducts={ recommendedProducts }
-                        closeModal={ (): void => setShowModal( false ) }
-                        onAddItem={ onAddItem }
-                        onRemoveItem={ onRemoveItem }
-                    /> }
                 </main>
                 <aside className="aside-cart">
                     <Cart
@@ -149,9 +143,6 @@ const products = ( { products, categories }: InferGetServerSidePropsType<typeof 
             /> }
 
             <style jsx>{`
-                @import 'styles/sass/abstracts/_variables';
-                @import 'styles/sass/abstracts/_mixins';
-
                 .products-page {
                     display: flex;
                 }
