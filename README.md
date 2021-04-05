@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Siempre en Casa challenge
 
-## Getting Started
+### Nota 📝
 
-First, run the development server:
+``- lunes 05/04/20`` _Lo hice ayer. Cumple con los pedidos del challenge. Quería agregarle JEST pero no me dio el tiempo, así que pensaba agregarlo en estos días después de mi horario laboral, y un poco de refactorización. Pero lo envío ahora dado que mañana ya tendremos una entrevista técnica_
 
-```bash
-npm run dev
-# or
-yarn dev
+### Instalación 🔧
+
+Clonar el proyecto
+```
+git clone https://github.com/AlanCasal/siempre-en-casa.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Descargar los paquetes necesarios
+```
+npm install
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Uso - Localhost 💻
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Una vez instalado, se puede correr el proyecto con el comando
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+npm run start
+```
 
-## Learn More
+Este comando va a usar el paquete `concurrently` inicializar el `proyecto en el puerto 3000` y el `json-server en el puerto 3001`
 
-To learn more about Next.js, take a look at the following resources:
+## Hecho con 🛠️
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [NextJs](https://nextjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [SASS / SCSS](https://sass-lang.com/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Autor ✒️
 
-## Deploy on Vercel
+| ![](https://avatars3.githubusercontent.com/u/38706801?s=400&u=2554a57319d104165c02c733cb1a4dc39db7be85&v=4)
+| -
+| [Alan Casal](https://github.com/AlanCasal)
+| Desarrollador front end
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+[![LinkedIn](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][1]
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[1]: https://www.linkedin.com/in/alancasal
