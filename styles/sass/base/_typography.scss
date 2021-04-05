@@ -1,0 +1,29 @@
+
+@import 'styles/sass/abstracts/variables';
+@import 'styles/sass/abstracts/mixins';
+@import url('#{$GOOGLE_FONTS}?&family=#{$montserrat}&family=#{$ubuntu}&family=#{$cinzel}&display=swap');
+
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    font-size: 16px;
+}
+
+.heading-tertiary {
+    font-size: $default-font-size;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    font-size: $default-font-size;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
+
+.montserrat {
+    font-family: Montserrat, sans-serif;
+}
